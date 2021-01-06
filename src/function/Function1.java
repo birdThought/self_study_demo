@@ -9,7 +9,7 @@ import java.util.stream.Stream;
  * @Email soul_thought@163.com
  */
 public class Function1 {
-    public static void main(String[] args) {
+    public static  void main(String[] args) {
         Stream<String> names = Stream.of("Lamurudu", "Okanbi", "Oduduwa");
 
         Optional<String> longest = names
